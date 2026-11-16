@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\AzureServiceBus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD42FE7-8483-4860-B437-0B87304FDE2B}|AzureServiceBus\\AzureServiceBus.csproj|d:\\my project\\dotnetazure\\dotnetwithazure\\azureservicebus\\azureservicebus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD42FE7-8483-4860-B437-0B87304FDE2B}|AzureServiceBus\\AzureServiceBus.csproj|solutionrelative:azureservicebus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD42FE7-8483-4860-B437-0B87304FDE2B}|AzureServiceBus\\AzureServiceBus.csproj|d:\\my project\\dotnetazure\\dotnetwithazure\\azureservicebus\\azureservicebus\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4BD42FE7-8483-4860-B437-0B87304FDE2B}|AzureServiceBus\\AzureServiceBus.csproj|solutionrelative:azureservicebus\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appSettings.json",
+              "DocumentMoniker": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\AzureServiceBus\\AzureServiceBus\\appSettings.json",
+              "RelativeDocumentMoniker": "AzureServiceBus\\appSettings.json",
+              "ToolTip": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\AzureServiceBus\\AzureServiceBus\\appSettings.json",
+              "RelativeToolTip": "AzureServiceBus\\appSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-22T15:45:49.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\AzureServiceBus\\AzureServiceBus\\Program.cs",
+              "RelativeDocumentMoniker": "AzureServiceBus\\Program.cs",
+              "ToolTip": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\AzureServiceBus\\AzureServiceBus\\Program.cs",
+              "RelativeToolTip": "AzureServiceBus\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T15:36:02.936Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

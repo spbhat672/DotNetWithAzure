@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\BlobStorage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5FDADF67-587F-4F18-ABA2-D7D62109641A}|BlobStorage\\BlobStorage.csproj|d:\\my project\\dotnetazure\\dotnetwithazure\\blobstorage\\blobstorage\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FDADF67-587F-4F18-ABA2-D7D62109641A}|BlobStorage\\BlobStorage.csproj|solutionrelative:blobstorage\\controllers\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FDADF67-587F-4F18-ABA2-D7D62109641A}|BlobStorage\\BlobStorage.csproj|d:\\my project\\dotnetazure\\dotnetwithazure\\blobstorage\\blobstorage\\service\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FDADF67-587F-4F18-ABA2-D7D62109641A}|BlobStorage\\BlobStorage.csproj|solutionrelative:blobstorage\\service\\blobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FDADF67-587F-4F18-ABA2-D7D62109641A}|BlobStorage\\BlobStorage.csproj|d:\\my project\\dotnetazure\\dotnetwithazure\\blobstorage\\blobstorage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FDADF67-587F-4F18-ABA2-D7D62109641A}|BlobStorage\\BlobStorage.csproj|solutionrelative:blobstorage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FDADF67-587F-4F18-ABA2-D7D62109641A}|BlobStorage\\BlobStorage.csproj|d:\\my project\\dotnetazure\\dotnetwithazure\\blobstorage\\blobstorage\\test.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5FDADF67-587F-4F18-ABA2-D7D62109641A}|BlobStorage\\BlobStorage.csproj|solutionrelative:blobstorage\\test.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FDADF67-587F-4F18-ABA2-D7D62109641A}|BlobStorage\\BlobStorage.csproj|d:\\my project\\dotnetazure\\dotnetwithazure\\blobstorage\\blobstorage\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5FDADF67-587F-4F18-ABA2-D7D62109641A}|BlobStorage\\BlobStorage.csproj|solutionrelative:blobstorage\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "test.txt",
+              "DocumentMoniker": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\BlobStorage\\BlobStorage\\test.txt",
+              "RelativeDocumentMoniker": "BlobStorage\\test.txt",
+              "ToolTip": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\BlobStorage\\BlobStorage\\test.txt",
+              "RelativeToolTip": "BlobStorage\\test.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-11-11T16:10:18.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\BlobStorage\\BlobStorage\\appsettings.json",
+              "RelativeDocumentMoniker": "BlobStorage\\appsettings.json",
+              "ToolTip": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\BlobStorage\\BlobStorage\\appsettings.json",
+              "RelativeToolTip": "BlobStorage\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-11T16:04:03.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\BlobStorage\\BlobStorage\\Program.cs",
+              "RelativeDocumentMoniker": "BlobStorage\\Program.cs",
+              "ToolTip": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\BlobStorage\\BlobStorage\\Program.cs",
+              "RelativeToolTip": "BlobStorage\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T15:58:55.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BlobService.cs",
+              "DocumentMoniker": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\BlobStorage\\BlobStorage\\Service\\BlobService.cs",
+              "RelativeDocumentMoniker": "BlobStorage\\Service\\BlobService.cs",
+              "ToolTip": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\BlobStorage\\BlobStorage\\Service\\BlobService.cs",
+              "RelativeToolTip": "BlobStorage\\Service\\BlobService.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAwwFEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T15:52:39.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ImageController.cs",
+              "DocumentMoniker": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\BlobStorage\\BlobStorage\\Controllers\\ImageController.cs",
+              "RelativeDocumentMoniker": "BlobStorage\\Controllers\\ImageController.cs",
+              "ToolTip": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\BlobStorage\\BlobStorage\\Controllers\\ImageController.cs",
+              "RelativeToolTip": "BlobStorage\\Controllers\\ImageController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAgwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T15:50:12.581Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
