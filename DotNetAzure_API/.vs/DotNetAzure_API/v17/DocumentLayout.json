@@ -1,12 +1,275 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|d:\\my project\\dotnetazure\\dotnetwithazure\\dotnetazure_api\\dotnetazure_api\\controllers\\taskitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|solutionrelative:dotnetazure_api\\controllers\\taskitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|d:\\my project\\dotnetazure\\dotnetwithazure\\dotnetazure_api\\dotnetazure_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|solutionrelative:dotnetazure_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|d:\\my project\\dotnetazure\\dotnetwithazure\\dotnetazure_api\\dotnetazure_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|solutionrelative:dotnetazure_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|d:\\my project\\dotnetazure\\dotnetwithazure\\dotnetazure_api\\dotnetazure_api\\services\\taskrediscache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|solutionrelative:dotnetazure_api\\services\\taskrediscache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|d:\\my project\\dotnetazure\\dotnetwithazure\\dotnetazure_api\\dotnetazure_api\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|solutionrelative:dotnetazure_api\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|d:\\my project\\dotnetazure\\dotnetwithazure\\dotnetazure_api\\dotnetazure_api\\controllers\\rediscachecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|solutionrelative:dotnetazure_api\\controllers\\rediscachecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|d:\\my project\\dotnetazure\\dotnetwithazure\\dotnetazure_api\\dotnetazure_api\\services\\taskapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|solutionrelative:dotnetazure_api\\services\\taskapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|d:\\my project\\dotnetazure\\dotnetwithazure\\dotnetazure_api\\dotnetazure_api\\models\\messaging\\taskitemsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|solutionrelative:dotnetazure_api\\models\\messaging\\taskitemsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|d:\\my project\\dotnetazure\\dotnetwithazure\\dotnetazure_api\\dotnetazure_api\\controllers\\servicebuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|solutionrelative:dotnetazure_api\\controllers\\servicebuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|d:\\my project\\dotnetazure\\dotnetwithazure\\dotnetazure_api\\dotnetazure_api\\models\\taskitemcreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|solutionrelative:dotnetazure_api\\models\\taskitemcreatedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|d:\\my project\\dotnetazure\\dotnetwithazure\\dotnetazure_api\\dotnetazure_api\\models\\messaging\\taskitemreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|solutionrelative:dotnetazure_api\\models\\messaging\\taskitemreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|d:\\my project\\dotnetazure\\dotnetwithazure\\dotnetazure_api\\dotnetazure_api\\models\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|solutionrelative:dotnetazure_api\\models\\entities\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|d:\\my project\\dotnetazure\\dotnetwithazure\\dotnetazure_api\\dotnetazure_api\\models\\messaging\\taskqueuesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|solutionrelative:dotnetazure_api\\models\\messaging\\taskqueuesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|d:\\my project\\dotnetazure\\dotnetwithazure\\dotnetazure_api\\dotnetazure_api\\models\\addtaskitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|solutionrelative:dotnetazure_api\\models\\addtaskitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|d:\\my project\\dotnetazure\\dotnetwithazure\\dotnetazure_api\\dotnetazure_api\\controllers\\keyvaultdemocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043F4167-B570-4268-B3F3-D8E6DEEEEC8E}|DotNetAzure_API\\DotNetAzure_API.csproj|solutionrelative:dotnetazure_api\\controllers\\keyvaultdemocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskItemsController.cs",
+              "DocumentMoniker": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\Controllers\\TaskItemsController.cs",
+              "RelativeDocumentMoniker": "DotNetAzure_API\\Controllers\\TaskItemsController.cs",
+              "ToolTip": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\Controllers\\TaskItemsController.cs",
+              "RelativeToolTip": "DotNetAzure_API\\Controllers\\TaskItemsController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-17T16:01:46.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "DotNetAzure_API\\Services\\TaskService.cs",
+              "ToolTip": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\Services\\TaskService.cs",
+              "RelativeToolTip": "DotNetAzure_API\\Services\\TaskService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwCgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-17T12:08:17.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\appsettings.json",
+              "RelativeDocumentMoniker": "DotNetAzure_API\\appsettings.json",
+              "ToolTip": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\appsettings.json",
+              "RelativeToolTip": "DotNetAzure_API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-28T16:03:08.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TaskApiClient.cs",
+              "DocumentMoniker": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\Services\\TaskApiClient.cs",
+              "RelativeDocumentMoniker": "DotNetAzure_API\\Services\\TaskApiClient.cs",
+              "ToolTip": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\Services\\TaskApiClient.cs",
+              "RelativeToolTip": "DotNetAzure_API\\Services\\TaskApiClient.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwBcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T15:52:46.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskRedisCache.cs",
+              "DocumentMoniker": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\Services\\TaskRedisCache.cs",
+              "RelativeDocumentMoniker": "DotNetAzure_API\\Services\\TaskRedisCache.cs",
+              "ToolTip": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\Services\\TaskRedisCache.cs",
+              "RelativeToolTip": "DotNetAzure_API\\Services\\TaskRedisCache.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-17T11:21:01.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RedisCacheController.cs",
+              "DocumentMoniker": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\Controllers\\RedisCacheController.cs",
+              "RelativeDocumentMoniker": "DotNetAzure_API\\Controllers\\RedisCacheController.cs",
+              "ToolTip": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\Controllers\\RedisCacheController.cs",
+              "RelativeToolTip": "DotNetAzure_API\\Controllers\\RedisCacheController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-17T16:14:42.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\Program.cs",
+              "RelativeDocumentMoniker": "DotNetAzure_API\\Program.cs",
+              "ToolTip": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\Program.cs",
+              "RelativeToolTip": "DotNetAzure_API\\Program.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T13:41:58.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ServiceBusController.cs",
+              "DocumentMoniker": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\Controllers\\ServiceBusController.cs",
+              "RelativeDocumentMoniker": "DotNetAzure_API\\Controllers\\ServiceBusController.cs",
+              "ToolTip": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\Controllers\\ServiceBusController.cs",
+              "RelativeToolTip": "DotNetAzure_API\\Controllers\\ServiceBusController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADgvxgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T15:43:06.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TaskItemSender.cs",
+              "DocumentMoniker": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\Models\\Messaging\\TaskItemSender.cs",
+              "RelativeDocumentMoniker": "DotNetAzure_API\\Models\\Messaging\\TaskItemSender.cs",
+              "ToolTip": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\Models\\Messaging\\TaskItemSender.cs",
+              "RelativeToolTip": "DotNetAzure_API\\Models\\Messaging\\TaskItemSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T15:45:28.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TaskItemCreatedEvent.cs",
+              "DocumentMoniker": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\Models\\TaskItemCreatedEvent.cs",
+              "RelativeDocumentMoniker": "DotNetAzure_API\\Models\\TaskItemCreatedEvent.cs",
+              "ToolTip": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\Models\\TaskItemCreatedEvent.cs",
+              "RelativeToolTip": "DotNetAzure_API\\Models\\TaskItemCreatedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T15:46:55.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaskItemReceiver.cs",
+              "DocumentMoniker": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\Models\\Messaging\\TaskItemReceiver.cs",
+              "RelativeDocumentMoniker": "DotNetAzure_API\\Models\\Messaging\\TaskItemReceiver.cs",
+              "ToolTip": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\Models\\Messaging\\TaskItemReceiver.cs",
+              "RelativeToolTip": "DotNetAzure_API\\Models\\Messaging\\TaskItemReceiver.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAvwEsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T15:47:46.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\Models\\Entities\\TaskItem.cs",
+              "RelativeDocumentMoniker": "DotNetAzure_API\\Models\\Entities\\TaskItem.cs",
+              "ToolTip": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\Models\\Entities\\TaskItem.cs",
+              "RelativeToolTip": "DotNetAzure_API\\Models\\Entities\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T15:48:18.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TaskQueueSetting.cs",
+              "DocumentMoniker": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\Models\\Messaging\\TaskQueueSetting.cs",
+              "RelativeDocumentMoniker": "DotNetAzure_API\\Models\\Messaging\\TaskQueueSetting.cs",
+              "ToolTip": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\Models\\Messaging\\TaskQueueSetting.cs",
+              "RelativeToolTip": "DotNetAzure_API\\Models\\Messaging\\TaskQueueSetting.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-27T15:49:13.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddTaskItemDto.cs",
+              "DocumentMoniker": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\Models\\AddTaskItemDto.cs",
+              "RelativeDocumentMoniker": "DotNetAzure_API\\Models\\AddTaskItemDto.cs",
+              "ToolTip": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\Models\\AddTaskItemDto.cs",
+              "RelativeToolTip": "DotNetAzure_API\\Models\\AddTaskItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T16:28:15.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "KeyVaultDemoController.cs",
+              "DocumentMoniker": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\Controllers\\KeyVaultDemoController.cs",
+              "RelativeDocumentMoniker": "DotNetAzure_API\\Controllers\\KeyVaultDemoController.cs",
+              "ToolTip": "D:\\My Project\\DotNetAzure\\DotNetWithAzure\\DotNetAzure_API\\DotNetAzure_API\\Controllers\\KeyVaultDemoController.cs",
+              "RelativeToolTip": "DotNetAzure_API\\Controllers\\KeyVaultDemoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-12T16:04:53.778Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
