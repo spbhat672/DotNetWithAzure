@@ -4,31 +4,116 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
 
 trigger:
-- main
-
+  branches:
+    include:
+      - master
+ 
 pool:
   vmImage: 'windows-latest'
-
+ 
 variables:
-  solution: '**/*.sln'
-  buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
-
-steps:
-- task: NuGetToolInstaller@1
-
-- task: NuGetCommand@2
-  inputs:
-    restoreSolution: '$(solution)'
-
-- task: VSBuild@1
-  inputs:
-    solution: '$(solution)'
-    msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:DesktopBuildPackageLocation="$(build.artifactStagingDirectory)\WebApp.zip" /p:DeployIisAppPath="Default Web Site"'
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
-
-- task: VSTest@2
-  inputs:
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
+  projectPath: '**/DotNetAzure_API.csproj'
+ 
+stages:
+ 
+# ====================================
+# STAGE 1: CONTINUOUS INTEGRATION
+# ====================================
+- stage: Build
+  displayName: 'CI - Build and Package'
+ 
+  jobs:
+  - job: BuildJob
+    displayName: 'Build TMT API'
+ 
+    steps:
+ 
+    # Install .NET 10 SDK
+    - task: UseDotNet@2
+      displayName: 'Install .NET 8 SDK'
+      inputs:
+        packageType: 'sdk'
+        version: '8.x'
+ 
+    # Restore dependencies
+    - task: DotNetCoreCLI@2
+      displayName: 'Restore NuGet Packages'
+      inputs:
+        command: 'restore'
+        projects: '$(projectPath)'
+ 
+    # Build application
+    - task: DotNetCoreCLI@2
+      displayName: 'Build Application'
+      inputs:
+        command: 'build'
+        projects: '$(projectPath)'
+        arguments: '--configuration $(buildConfiguration) --no-restore'
+ 
+    # Optional: Add this task if you have a test project
+    # - task: DotNetCoreCLI@2
+    #   displayName: 'Run Unit Tests'
+    #   inputs:
+    #     command: 'test'
+    #     projects: '**/*Tests.csproj'
+    #     arguments: '--configuration $(buildConfiguration)'
+ 
+    # Publish application
+    - task: DotNetCoreCLI@2
+      displayName: 'Publish Application'
+      inputs:
+        command: 'publish'
+        publishWebProjects: false
+        projects: '$(projectPath)'
+        arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)/publish'
+        zipAfterPublish: false
+ 
+    # Create ZIP deployment package
+    - task: ArchiveFiles@2
+      displayName: 'Create ZIP Package'
+      inputs:
+        rootFolderOrFile: '$(Build.ArtifactStagingDirectory)/publish'
+        includeRootFolder: false
+        archiveType: 'zip'
+        archiveFile: '$(Build.ArtifactStagingDirectory)/DotNetAzure_API.zip'
+        replaceExistingArchive: true
+ 
+    # Publish artifact
+    - task: PublishPipelineArtifact@1
+      displayName: 'Publish Build Artifact'
+      inputs:
+        targetPath: '$(Build.ArtifactStagingDirectory)/DotNetAzure_API.zip'
+        artifact: 'drop'
+ 
+ 
+# ====================================
+# STAGE 2: CONTINUOUS DEPLOYMENT
+# ====================================
+- stage: Deploy
+  displayName: 'CD - Deploy to Azure'
+  dependsOn: Build
+  condition: succeeded()
+ 
+  jobs:
+  - deployment: DeployWebApp
+    displayName: 'Deploy TMT API'
+    environment: 'TMT-Development'
+ 
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+ 
+          # Download build artifact
+          - download: current
+            artifact: drop
+ 
+          # Deploy to Azure App Service
+          - task: AzureWebApp@1
+            displayName: 'Deploy to Azure App Service'
+            inputs:
+              azureSubscription: 'TMT'
+              appType: 'webApp'
+              appName: 'keyvault-training-api'
+              package: '$(Pipeline.Workspace)/drop/DotNetAzure_API.zip'
