@@ -13,7 +13,7 @@ pool:
  
 variables:
   buildConfiguration: 'Release'
-  projectPath: '**/DotNetAzure_API.csproj'
+  projectPath: '**/DotNetAzure_API/DotNetAzure_API.csproj'
  
 stages:
  
